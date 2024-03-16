@@ -66,6 +66,11 @@ public class MoreVanillaFuel implements ModInitializer {
 		FuelRegistry.INSTANCE.add(Items.CHERRY_LEAVES, 150);
 		FuelRegistry.INSTANCE.add(Items.AZALEA_LEAVES, 150);
 		FuelRegistry.INSTANCE.add(Items.FLOWERING_AZALEA_LEAVES, 150);
-
+		FuelRegistry.INSTANCE.add(Items.WRITABLE_BOOK, 150);
+		FuelRegistry.INSTANCE.add(Items.BOOK, 150);
+		FuelRegistry.INSTANCE.add(Items.CHEST_MINECART, 300);
+		FuelRegistry.INSTANCE.add(Items.POWERED_RAIL, 300);
+		FuelRegistry.INSTANCE.add(Items.ACTIVATOR_RAIL, 300);
+		FuelRegistry.INSTANCE.add(Items.DETECTOR_RAIL, 300);
 	}
 }
