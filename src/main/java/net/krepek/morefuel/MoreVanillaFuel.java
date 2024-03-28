@@ -72,5 +72,13 @@ public class MoreVanillaFuel implements ModInitializer {
 		FuelRegistry.INSTANCE.add(Items.POWERED_RAIL, 300);
 		FuelRegistry.INSTANCE.add(Items.ACTIVATOR_RAIL, 300);
 		FuelRegistry.INSTANCE.add(Items.DETECTOR_RAIL, 300);
+		FuelRegistry.INSTANCE.add(Items.CREEPER_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.FLOWER_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.GLOBE_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.PIGLIN_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.MOJANG_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.SKULL_BANNER_PATTERN, 300);
+		FuelRegistry.INSTANCE.add(Items.PISTON, 300);
+		FuelRegistry.INSTANCE.add(Items.STICKY_PISTON, 300);
 	}
 }
