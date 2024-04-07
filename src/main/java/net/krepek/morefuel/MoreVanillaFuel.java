@@ -13,6 +13,7 @@ public class MoreVanillaFuel implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+	//Fuel Items
 		FuelRegistry.INSTANCE.add(Items.ARROW, 150);
 		FuelRegistry.INSTANCE.add(Items.SPECTRAL_ARROW, 150);
 		FuelRegistry.INSTANCE.add(Items.BRUSH, 150);
