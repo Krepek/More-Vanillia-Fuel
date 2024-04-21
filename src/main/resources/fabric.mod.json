@@ -8,7 +8,7 @@
 		"Krepek"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/more-fuel-mod",
+		"homepage": "https://github.com/Krepek/More-Vanillia-Fuel",
 		"sources": "https://github.com/Krepek/More-Vanillia-Fuel",
 		"issues": "https://github.com/Krepek/More-Vanillia-Fuel/issues"
 	},
@@ -31,11 +31,18 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
-		"minecraft": ">=1.19.2",
+		"minecraft": ">=1.19.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/more-fuel-mod"
+			}
+		}
 	}
 }
