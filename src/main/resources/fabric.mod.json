@@ -42,7 +42,8 @@
 		"modmenu": {
 			"links": {
 				"modmenu.modrinth": "https://modrinth.com/mod/more-fuel-mod"
-			}
+			},
+			"update_checker": true
 		}
 	}
 }
