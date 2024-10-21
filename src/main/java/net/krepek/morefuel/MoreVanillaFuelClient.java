@@ -6,6 +6,5 @@ public class MoreVanillaFuelClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-
     }
 }
