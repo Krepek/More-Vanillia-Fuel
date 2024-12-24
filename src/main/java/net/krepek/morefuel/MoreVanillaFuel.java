@@ -1,9 +1,5 @@
 package net.krepek.morefuel;
-
 import net.fabricmc.api.ModInitializer;
-
-import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
-import net.minecraft.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +10,6 @@ public class MoreVanillaFuel implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		FuelRegistry.registerFuels();
+		LOGGER.info("Mod loaded correctly!");
 	}
 }

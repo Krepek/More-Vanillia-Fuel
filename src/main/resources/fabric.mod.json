@@ -3,7 +3,7 @@
 	"id": "more-vanilla-fuel",
 	"version": "${version}",
 	"name": "More Vanilla Fuel",
-	"description": "Adds lots of new fuel items using vanilla items!",
+	"description": "Adds the ability to smelt items that are in the game and can't be smelted in vanilla!",
 	"authors": [
 		"Krepek"
 	],
@@ -41,7 +41,8 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.modrinth": "https://modrinth.com/mod/more-fuel-mod"
+				"modmenu.modrinth": "https://modrinth.com/mod/more-fuel-mod",
+				"modmenu.crowdin": "https://crowdin.com/project/more-vanilla-fuel"
 			},
 			"update_checker": true
 		}

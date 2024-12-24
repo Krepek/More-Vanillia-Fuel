@@ -3,7 +3,6 @@ import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.minecraft.item.Items;
 
 public final class FuelRegistry {
-    // For versions since 1.21.2
     public static void registerFuels() {
         FuelRegistryEvents.BUILD.register((builder, context) -> {
             builder.add(Items.ARROW, 150);
@@ -13,7 +12,7 @@ public final class FuelRegistry {
             builder.add(Items.GLOW_ITEM_FRAME, 150);
             builder.add(Items.BEEHIVE, 300);
             builder.add(Items.FIRE_CHARGE, 3000);
-            builder.add(Items.ARMOR_STAND, 900); //+300
+            builder.add(Items.ARMOR_STAND, 900);
             builder.add(Items.PAINTING, 150);
             builder.add(Items.LEAD, 150);
             builder.add(Items.WARPED_FUNGUS_ON_A_STICK, 300);
@@ -59,8 +58,8 @@ public final class FuelRegistry {
             builder.add(Items.CHERRY_LEAVES, 150);
             builder.add(Items.AZALEA_LEAVES, 150);
             builder.add(Items.FLOWERING_AZALEA_LEAVES, 150);
-            builder.add(Items.WRITABLE_BOOK, 300); //+150
-            builder.add(Items.BOOK, 300); //+150
+            builder.add(Items.WRITABLE_BOOK, 300);
+            builder.add(Items.BOOK, 300);
             builder.add(Items.CHEST_MINECART, 300);
             builder.add(Items.POWERED_RAIL, 300);
             builder.add(Items.ACTIVATOR_RAIL, 300);
